@@ -107,3 +107,67 @@ main {
     margin-right: 1.2rem;
 }
 /* main style ends here */
+
+/*gammer-section style starts here */
+
+/*gammer-section style ends here */
+
+/* online games-section style starts here */
+.online-games>h3{
+    text-align: center;
+}
+.online-games>p{
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 3rem;
+}
+
+.card {
+    position: relative;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .play-btn i {
+    font-size: 25px;
+  }
+  
+
+/* online games-section style ends here */
+
