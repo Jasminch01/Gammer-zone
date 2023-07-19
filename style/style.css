@@ -11,7 +11,7 @@
 
 .section-title {
   color: #0b0223;
-  font-size: 48px;
+  font-size: 2.7rem;
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ main {
 }
 
 .banner-title {
-  font-size: 95px;
+  font-size: 6rem;
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
@@ -92,12 +92,12 @@ main {
   margin-bottom: 17px;
 }
 .banner-text-container > button {
-  padding: 20px 30px;
+  padding: 1.2rem 2rem;
   border: none;
   border-radius: 40px;
   background-color: #4EC5F7;;
   color: #fff;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 2rem;
@@ -171,3 +171,129 @@ main {
 
 /* online games-section style ends here */
 
+/* responsive media quary style starts here */
+@media screen and (max-width:600px) {
+  .nav-bar, .banner{
+    flex-direction: column;
+  }
+  .nav-bar {
+     align-items: center;
+     justify-content: center;
+  }
+  .nav-icon-container {
+    margin-bottom: 2rem;
+  }
+  .nav-icon-container > .brand-logo{
+    width: 50px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .manus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .manus > a{
+    margin: 0;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+  .banner-img-container > img{
+    width: 100%;
+  }
+  .banner-text-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+   
+  }
+  .banner-text-container > button {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  main , .nav-bar{
+    padding: 0px 3rem;
+  }
+  .Brand-name {
+    font-size: 2rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 4rem;
+  }
+}
+
+@media screen and (min-width:600px ) and (max-width: 768px){
+  .nav-bar, .banner{
+    flex-direction: column;
+  }
+  .nav-bar {
+     align-items: center;
+     justify-content: center;
+  }
+  .nav-icon-container {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .brand-logo {
+    margin-left: 2.3rem;
+  }
+  .manus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .manus > a{
+    margin: 0;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+    gap: 2rem;
+  }
+  .banner-img-container > img{
+    width: 100%;
+  }
+  .banner-text-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-text-container > button {
+    margin-top: 1rem;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  main , .nav-bar{
+    padding: 0px 3rem;
+  }
+  .Brand-name {
+    font-size: 2rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 4rem;
+  }
+
+
+}
+/* responsive media quary style ends here */
