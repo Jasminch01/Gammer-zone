@@ -170,6 +170,8 @@ main {
 .card {
     position: relative;
     border: 3px solid white;
+    border-left: 0px;
+    border-right: 0px;
   }
   
   .card-img {
@@ -198,6 +200,8 @@ main {
   }
   .card:hover {
     border: 3px solid #FF42A5;
+    border-left: 0px;
+    border-right: 0px;
   }
   .card:hover .overlay {
     opacity: 1;
