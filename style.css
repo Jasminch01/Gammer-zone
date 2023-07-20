@@ -169,6 +169,7 @@ main {
 
 .card {
     position: relative;
+    border: 3px solid white;
   }
   
   .card-img {
@@ -195,7 +196,9 @@ main {
     left: 50%;
     transform: translate(-50%, -50%)
   }
-  
+  .card:hover {
+    border: 3px solid #FF42A5;
+  }
   .card:hover .overlay {
     opacity: 1;
   }
