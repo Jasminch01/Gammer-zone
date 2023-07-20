@@ -169,15 +169,15 @@ main {
 
 .card {
     position: relative;
-    border: 3px solid white;
-    border-left: 0px;
-    border-right: 0px;
+    border: 4px solid white;
+    border-radius: 10px;
   }
   
   .card-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
   }
   
   .overlay {
@@ -199,9 +199,7 @@ main {
     transform: translate(-50%, -50%)
   }
   .card:hover {
-    border: 3px solid #FF42A5;
-    border-left: 0px;
-    border-right: 0px;
+    border: 4px solid #FF42A5;
   }
   .card:hover .overlay {
     opacity: 1;
