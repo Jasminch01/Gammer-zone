@@ -76,12 +76,19 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 }
+.banner-container {
+  background-image: url("./images/Group\ 14.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
 .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .banner-title {
@@ -234,7 +241,6 @@ main {
   margin-top: 5rem;
   margin-bottom: 10rem;
 }
-
 .img-content {
   position: relative;
 }
@@ -347,6 +353,9 @@ footer {
 
 /* responsive media quary style starts here */
 @media screen and (max-width:600px) {
+  .banner-container {
+    background-position: bottom;
+  }
   .nav-bar, .banner, .play-online, .gammer{
     flex-direction: column;
   }
@@ -486,6 +495,9 @@ footer {
 }
 
 @media screen and (min-width:600px ) and (max-width: 768px){
+  .banner-container {
+    background-position: bottom;
+  }
   .nav-bar, .banner, .gammer{
     flex-direction: column;
   }
@@ -537,7 +549,7 @@ footer {
     font-size: 2rem;
   }
 
-  .cards {
+  .online-games> .cards {
     grid-template-columns: repeat(2,1fr);
     row-gap: 4rem;
   }
